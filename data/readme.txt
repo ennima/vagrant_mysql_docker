@@ -1,0 +1,1 @@
+Aquí se almacenarán los respaldos de la db con mysqldump
