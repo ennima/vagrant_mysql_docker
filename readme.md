@@ -39,7 +39,7 @@ Por defaul la configuración de la máquina tiene las siguientes credenciales:
 - **ip**: 192.168.33.10
 - **puerto**: 3306
 - **usuario**: root
-- **password**cd /: root
+- **password**: root
 
 
 ### Configurar backups de mysql
