@@ -73,5 +73,5 @@ Cada desarrollo se va a dividir en pequeños trozos de software que funcionarán
 Gracias a esta arquitectura se podrán homologar los ambientes de desarrollo, pruebas y producción.
 
 <center>
-![Arch](./docs/Arch.png)
+![Arch](docs/Arch.png)
 </center>
