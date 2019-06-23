@@ -23,10 +23,10 @@ sudo service mysql restart
 # create client database
 mysql -u root -proot -e "CREATE DATABASE myDB;"
 
-
-echo "[mysqldump]" >> ~/.my.cnf
-echo "user=root" >> ~/.my.cnf
-echo "password=root" >> ~/.my.cnf
+cd ~
+sudo echo "[mysqldump]" >> ~/.my.cnf
+sudo echo "user=root" >> ~/.my.cnf
+sudo echo "password=root" >> ~/.my.cnf
 
 # Install Docker
 apt-get update
