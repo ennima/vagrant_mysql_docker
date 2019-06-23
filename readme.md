@@ -25,7 +25,7 @@ Luego de unos minutos se creará una máquina virtual con todo listo para ser us
 Si todo salió bien mostrará una página de bienvenida de NGINX
 
 ### Mac OS
-Para correr en windows la máquina virtual hay que ejecutar el .bat:
+Para correr en MacOS la máquina virtual hay que ejecutar el comando en la terminal:
 + Terminal
 `vagrant up --provision`
 
@@ -36,10 +36,10 @@ Si todo salió bien mostrará una página de bienvenida de NGINX
 
 ### Conectar a MySQL
 Por defaul la configuración de la máquina tiene las siguientes credenciales:
-**ip**: 192.168.33.10
-**puerto**: 3306
-**usuario**: root
-**password**cd /: root
+- **ip**: 192.168.33.10
+- **puerto**: 3306
+- **usuario**: root
+- **password**cd /: root
 
 
 ### Configurar backups de mysql
@@ -48,8 +48,9 @@ Para ejecutar un respaldo de los datos de forma manual
 1. Ir a la carpeta compartida: `$ cd /vagrant`
 2. Ejecutar un respaldo:
 `$ sudo mysqldump -u root <nombreTabla> > <nombreTabla>.sql`
-  Ejemplo: 
-  	`$ sudo mysqldump -u root sys > ./data/myDb.sql`
+  
+Ejemplo: 
+`$ sudo mysqldump -u root sys > ./data/myDb.sql`
     
 ##### Nota: En caso de mandar error
 Ejecutar el siguiente código en shell de vagrant y volver a intentar el respaldo.
@@ -72,5 +73,5 @@ Cada desarrollo se va a dividir en pequeños trozos de software que funcionarán
 Gracias a esta arquitectura se podrán homologar los ambientes de desarrollo, pruebas y producción.
 
 <center>
-![Arch](./docs/arch.png)
+![Arch](./docs/Arch.png)
 </center>
