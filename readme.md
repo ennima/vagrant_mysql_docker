@@ -17,7 +17,7 @@ Además hay que comentar la línea:
 Para correr en windows la máquina virtual hay que ejecutar el .bat:
 + Powershell
 `.\commands\up_machine.bat`
-+cmd
++ cmd
 `commands\up_machine.bat`
 
 Luego de unos minutos se creará una máquina virtual con todo listo para ser usada, para probar que está corriendo adecuadamente basta con abrir un navegador e ir a la dirección: [http://192.168.33.10/](http://192.168.33.10/)
